@@ -1,0 +1,28 @@
+/* client/src/App.css or a new CSS file for global styling */
+
+body {
+  margin: 0; /* Remove default body margin */
+  padding: 0; /* Remove default body padding */
+  /* background: url('LBW5.jpg')   */
+  background-color: #212529;
+ 
+}
+
+/* Additional styling for your content, if needed */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #fff;
+}
+.left-view{
+  /* background-color: rgb(193, 27, 27); */
+}
+.right-view{
+  font-size: 21px;
+}
+.right-view p{
+  
+}
+
+
