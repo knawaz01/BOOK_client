@@ -19,7 +19,7 @@ const BookList = () => {
 
   const fetchData = async () => {
     try {
-      const res = await fetch(`/getdata`, {
+      const res = await fetch(`https://book-server-7iqt.onrender.com/getdata`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
@@ -43,7 +43,7 @@ const BookList = () => {
   }, []);
 
   const deletebook = async (id) => {
-    const res2 = await fetch(`/deletebook/${id}`, {
+    const res2 = await fetch(`https://book-server-7iqt.onrender.com/deletebook/${id}`, {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",

@@ -18,7 +18,7 @@ const Header = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/add" className="nav-link">
+            <Link to="https://book-server-7iqt.onrender.com/add" className="nav-link">
               Add Book
             </Link>
           </li>

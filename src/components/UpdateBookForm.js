@@ -34,7 +34,7 @@ const UpdateBookForm = () => {
   const fetchData = async () => {
     
     try {
-      const res = await fetch(`/getbook/${id}`, {
+      const res = await fetch(`https://book-server-7iqt.onrender.com/getbook/${id}`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json'
@@ -60,7 +60,7 @@ const UpdateBookForm = () => {
   const updatebook = async(e)=>{
     e.preventDefault()
     const {title,author,genre,image,description} = inpval
-    const res2 = await fetch(`/updatebook/${id}`, {
+    const res2 = await fetch(`https://book-server-7iqt.onrender.com/updatebook/${id}`, {
       method: 'PATCH',
       headers: {
         'Content-Type': 'application/json'

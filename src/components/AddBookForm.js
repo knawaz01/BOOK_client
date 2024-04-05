@@ -33,7 +33,7 @@ const AddBookForm = () => {
       e.preventDefault();
 
       const {title,author,genre,image,description} = inpval
-      const res = await fetch(`/add`,{
+      const res = await fetch(`https://book-server-7iqt.onrender.com/add`,{
         method:"POST",
         headers:{
           "Content-Type":"application/json"
